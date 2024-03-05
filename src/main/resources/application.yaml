@@ -1,0 +1,13 @@
+spring:
+  data:
+    redis:
+      host: "http://localhost"
+      port: 6380
+      password: "#Password"
+      timeoutInMilliseconds: 5000
+      ssl: true
+  cache:
+    mapa:
+      name: MAP_EMPLOYEES
+      key:  MAP_KEY_EMPLOYEES
+      secondsToLive: 3600
